@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<title>jQuery Mobile Web App</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+
+
+<link href="styles/custom.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+
+
+
+<div style="background-color:black;color:white;">
+  <div id="page" data-role="page" data-theme="a" data-add-back-btn="true">
+    <div data-role="header" data=theme="a">
+      <div class="logo"><img src="C:\Users\nicol\Downloads\Monkister-1.png" width="329" height="153" alt=""/></div>
+    </div>
+
+<div data-role="header">
+  <h1>Monkister</h1>
+</div>
+<div data-role="main">
+  <h1>Enjoy Shopping Our Brand!</h1>
+</div>
+
+
+<div data-role="panel" id="myPanel">
+<h2>Navigation Panel</h2>
+<ul data-role="listview" data-theme="c">
+<li class="menu"><a href="#">Our Mission</a></li>
+<li class="menu"><a href="#">About Our Clothing Brand</a></li>
+<li class="menu"><a href="#">Our Fascination With Monkeys</a></li>
+<li class="menu"><a href="#">Where We Are Located Around The World</a></li>
+<li class="menu"><a href="#">Why We Chase The Monkeys</a></li>
+<li class="menu"><a href="#">What Happens When They Are Found</a></li>
+</ul>
+<p>You can close this panel by clicking outside of it, pressing the Esc key, or by swiping.</p>
+</div>
+
+<div data-role="header">
+  <h1>Monkey See, Monkey Do</h1>
+  <a href="#myPanel" class="ui-btn ui-btn-inline">Open Navigation Panel</a>
+</div>
+
+<div data-role="content">
+  <ul data-role="listview" data-theme="c" data-filter="true">
+    <li><a href="#section1">Shirts</a></li>
+    <li><a href="#section2">Pants</a></li>
+    <li><a href="#section3">Shorts</a></li>
+    <li><a href="#section4">Jackets</a></li>
+    <li><a href="#section5">Hats</a></li>
+    <li><a href="#section6">Socks</a></li>
+    <li><a href="#section7">Toys</a></li>
+    <li><a href="#section8">Candy</a></li>
+    <li><a href="#section9">Drinks</a<</li>
+    <li><a href="#grid">Grid</a></li>
+    <li><a href="#section10">Resourceful Links</a></li>
+    <li><a href="#form">Form Submissions</a></li>
+  </ul>
+</div>
+
+
+<div data-role="footer" data-theme="a">
+  <h2>Monkister: Monkey See, Monkey Do &copy; 2023</h2>
+  </div>
+</div>
+
+
+<div id="section1" data-role="subpage" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Monkister:Shirts</h1>
+  </div>
+  <div data-role="content">
+    <h2>Monkey See, Monkey Do Shirts</h2>
+    <p>Explore our brands of the finest collection of the Buddist Monk overstepping his boundaries
+      whenever he pleases througout his country. Don't expect him to slow down anytime soon, and keep
+      releasing shirts that symbolize the love for the swingin' monkeys hustling in the jungle.
+      He has willingly dedicated his vows to quietly stimulate the howl of monkeys throughout nights of
+      laboring away at this shirt collection. Don't be afraid to buy as many available, more shall be
+      released of many more monkeys howling throughout the jungles.
+        <ol type="I">
+          <li>Short Sleeve Shirts</li>
+          <li>Long-Sleeve Shirts</li>
+          <li>Tank-Tops</li>
+          <li>Graphic Shirts</li>
+          <li>Logo Shirts</li>
+        </ol>
+    </p>
+    </div>
+    <div data-role="footer" data-role="a">
+      <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+  </div>
+</div>
+
+<div id="section2" data-role="subpage" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Monkister:Pants</h1>
+  </div>
+  <div data-role="content">
+    <h2>Monkey See, Monkey Do Pants</h2>
+    <p> Explore our brands of the finest collection of the Buddist Monk overstepping his boundaries
+      whenever he pleases throughout his country. Don't expect him to not have released fashionable
+      pants worth going bananas over for swingin' monkeys hustling in the jungle.
+      He has willingly dedicated his time to fashionably designing pants that many can't help
+      but pull down from waist-high hangars on the branching shelves for many on display. Don't be afraid to buy
+      as many pairs as possibly available, more shall be released to have many going bananas for your fashionable pants.
+        <ol type="I">
+          <li>Jeans</li>
+          <li>Black Pants</li>
+          <li>Khaki Pants</li>
+          <li>Dress Pants</li>
+          <li>Ripped Pants</li>
+        </ol>
+    </p>
+</div>
+  <div data-role="footer" data-role="a">
+    <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+  </div>
+</div>
+
+<div id="section3" data-role="subpage" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Monkister:Shorts</h1>
+  </div>
+  <div data-role="content">
+    <h2> Monkey See, Monkey Do Shorts</h2>
+    <p> Explore our brands of the finest collection of the Buddist Monk overstepping his boundaries
+      whenever he pleases throughout his country. Don't expect him to not have released fashionable shorts
+      worth going bananas over for swingin' monkeys hustling in the jungle.
+      He has willingly dedicated his time to fashionably designing shorts that let your
+      bananas hang freely on the printing off the patterns on the clothing for display. Don't be afraid
+      to buy as many pairs as possibly available, more shall be released for many to view your bananas showing
+      through your fashionably designed shorts.
+      <ol type="I">
+        <li>Jean Shorts</li>
+        <li>Black Shorts</li>
+        <li>Khaki Shorts</li>
+        <li>Ripped Shorts</li>
+        <li>Short Shorts</li>
+      </ol>
+      <p>
+</div>
+        <div data-role="footer" data-role="a">
+          <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+        </div>
+      </div>
+<div id="section4" data-role="subpage" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Monkister:Jackets</h1>
+  </div>
+  <div data-role="content">
+    <h2>Monkey See, Monkey Do Jackets</h2>
+    <p> Explore our brands of the finest collection of the Buddist Monk overstepping his boundaries
+      whenever he pleases throughout his country. Don't expect him to not have released jackets worth
+      storing as many bananas capable of carrying for attracting any mates worthing monkeying around with
+      fashionably. He has willingly dedicated his time to fashionably designing jackets for your
+      bananas to be stored away safely until the time is right to unveil a pocket prize. Don't be afraid
+      to buy as many jackets as possibly available, more shall be released to store away your prized
+      bananas worth sharing freshly.
+      <ol type="I">
+        <li>Leather Jackets</li>
+        <li>Trench Coat Jackets</li>
+        <li>Winter Jackets</li>
+        <li>Jean Jackets</li>
+        <li>Short-Sleeve Jackets</li>
+      </ol>
+    </p>
+    </div>
+            <div data-role="footer" data-role="a">
+              <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+            </div>
+          </div>
+<div id="section5" data-role="subpage" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Monkister:Hats</h1>
+  </div>
+  <div data-role="content">
+    <h2> Monkey See, Monkey Do Hats</h2>
+    <p> Explore our brands of the finest collection of the Buddist Monk overstepping his boundaries
+      whenever he pleases throughout his country. Don't expect him to not have released hats worth exploring
+      fashionably for another worth swingin', hustlin', and sweatin' without shade in the sunlight.
+      He has willingly dedicated his time to fashionably designing hats for remaining
+      focused on getting through the drip,drip,drippin' struggle of the unbearable
+      radiating heat in each waking moment. Don't be afraid to buy as many possibly available,
+      more shall be released that should keep you cool in a hat.
+      <ol type="I">
+        <li>Baseball Hats</li>
+        <li>Beanie Hats</li>
+        <li>Bucket Hats</li>
+        <li>Cowboy Hats</li>
+        <li>Soda-Pop Drinking Hats</li>
+      </ol>
+    </p>
+    </div>
+            <div data-role="footer" data-role="a">
+              <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+            </div>
+          </div>
+<div id="section6" data-role="subpage" data-theme="a" data-add-back-btn="true">
+  <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>Monkister:Socks</h1>
+  </div>
+  <div data-role="content">
+    <h2> Monkey See, Monkey Do Socks</h2>
+        <p> Explore our brands of the finest collection of the Buddist Monk overstepping his boundaries
+          whenever he pleases throughout his country. Don't expect him to not have released socks worth
+          exploring wherever another may demand they be removed. He has willingly dedicated
+          his time to fashionably designing socks easily removable when an emergency arises
+          unexpectedly. In the radiating heats of moments, many have demanded socks
+          be removed immediately. Our brand of socks may be removed as requested quickly,
+          and discrepancies shall not arise unexpectedly. Don't be afraid to buy as many possibly available,
+          more shall be relased for these emergencies that may arise for you unexpectedly.
+      <ol type="I">
+        <li>Long Socks</li>
+        <li>Ankle Socks</li>
+        <li>Below-Ankle Socks</li>
+        <li>Fuzzy Socks</li>
+        <li>Graphic Socks</li>
+      </ol>
+         </p>
+        </div>
+                <div data-role="footer" data-role="a">
+                  <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+                </div>
+              </div>
+              <div id="section7" data-role="subpage" data-theme="a" data-add-back-btn="true">
+                <div data-role="header" data-theme="a" data-add-back-btn="true">
+                  <h1>Monkister:Toys</h1>
+                  <p>Explore our brands of the finest collection of the Buddist Monk overstepping his boundaries
+                    whenever he pleases throughout his country. Don't expect him to not have released toys worth glorifiying
+                    the beauty of a monkey howling loudly. Imagine your favorite monkey going bananas for monkey see, monkey do
+                    branding with your children. The interactive monkey should howl loudly with the finest branding in our
+                    collection of toys to add to your collection. When you hand the monkeys their own banana, they howl
+                    loudly in your living room for laughter for the family. Don't let your monkey get ahold of too many
+                    bananas though, he may never howl again the same experience the pleasure of the tasty bananas in our
+                    toy collection.
+        <ol type="I">
+          <li>Orangutan Monkey</li>
+          <li>Howling Monkey</li>
+          <li>Gorilla</li>
+          <li>Spider Monkeys</li>
+          <li>Capuchins</li>
+        </ol>
+                  </p>
+                </div>
+                <div data-role="footer" data-role="a">
+                  <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+                </div>
+              </div>
+              <div id="section8" data-role="subpage" data-theme="a" data-add-back-btn="true">
+                <div data-role="header" data-theme="a" data-add-back-btn="true">
+                  <h1>Monkister:Candy</h1>
+                  <p>Explore our brands of the finest collection of the Buddist Monk overstepping his boundaries
+                    whenever he pleases throughout his country. Don't expect him to not have released candy worth glorifiying
+                    that is tastier than a monkey's banana fruitfully tasty. Imagine your favorite monkey candies to go bananas with monkey see, monkey do
+                    through our branding. The monkey candies should have you howling loudly for the finest candy in our
+                    created for your taste bud cravings. When you hand your children their own banana candies, they should howl
+                    loudly for more in your living room for laughter in the family. Don't let your children get ahold of too many
+                    banana candies though, he may go bananas for more tasting the sweetness of our
+                    candy brand collection.</p>
+        <ol type="I">
+          <li>Orangutan Candy</li>
+          <li>Howling Monkey Candy</li>
+          <li>Gorilla Candy</li>
+          <li>Spider Monkeys Candy</li>
+          <li>Capuchins Candy</li>
+        </ol>
+                  </p>
+                </div>
+                <div data-role="footer" data-role="a">
+                  <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+                </div>
+              </div>
+              <div id="section9" data-role="subpage" data-theme="a" data-add-back-btn="true">
+                <div data-role="header" data-theme="a" data-add-back-btn="true">
+                  <h1>Monkister:Drinks</h1>
+                  <p>Explore our brands of the finest collection of the Buddist Monk overstepping his boundaries
+                    whenever he pleases throughout his country. Don't expect him to not have released drinks worth glorifiying
+                    that is tastier than the fruity flavors for a craving monkey. Imagine your favorite drinks with savoring flavors of the many
+                    monkey see, monkey do fruits in the jungles. These fruity flavored drinks should have you howling loudly for the finest sips of our
+                    created drinks for your taste bud cravings. When you hand your children their own fruity flavored monkey drinks, they should be begging for
+                   for more as a howling monkey in your living room for your family. Don't let your children get ahold of too many
+                   fruity flavored drinks though, they may go bananas for more tasting the sweetness of our
+                  drink brand collection.</p>
+        <ol type="I">
+          <li>Orangutan Drink</li>
+          <li>Howling Monkey Drink</li>
+          <li>Gorilla Drink</li>
+          <li>Spider Monkeys Drink</li>
+          <li>Capuchins Drink</li>
+        </ol>
+                  </p>
+                </div>
+                <div data-role="footer" data-role="a">
+                  <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+                </div>
+              </div>
+
+              <div data-role="page" id="grid" data-theme="a" data-add-back-btn="true">
+
+              <div data-role="header" data-theme="a" data-add-back-btn="true">
+
+              <h1>Grid</h1>
+
+              </div>
+
+              <div data-role="content">
+              <div class="ui-grid-a">
+              <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Shirts</div></div>
+              <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Pants</div></div>
+              <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Shorts</div></div>
+              <div class="ui-block-d"><div class="ui-bar ui-bar-a" style="height:60px">Jackets</div></div>
+              <div class="ui-block-e"><div class="ui-bar ui-bar-a" style="height:60px">Hats</div></div>
+              </div><!-- /grid-a -->
+
+              </div>
+
+              <div data-role="footer" data-role="a">
+                <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+              </div>
+              </div>
+
+              <div id="section10" data-role="subpage" data-theme="a" data-add-back-btn="true">
+                <div data-role="header" data-theme="a" data-add-back-btn="true">
+                  <h1>Resourceful Links</h1>
+                </div>
+                <div data-role="content">
+                  <ul data-role="listview" data-theme="c">
+                    <li><a href="https://www.zazzle.com/monkey+see+monkey+do+tshirts">Monkey Shirts</a></li>
+                    <li><a href="https://jpeterman.com/products/monkey-pants">Monkey Pants</a></li>
+                    <li><a href="https://relcolondon.com/collections/monkey-jackets">Monkey Jackets</a></li>
+                  </ul>
+                          <ul>
+                            <li> Description: These few links are great examples of competing clothes against our brand.
+                              As you can view through the weblinks, none of these brans are better then are monkey see, monkey do clothing.
+                              You should never shop again with another competitor with our brand name  for monkey see, monkey do brand collection.
+                              Enjoy comparing their own clothing, with ours realizing they don't stand a chance against our
+                              established brand glorifiying monkey see, monkey do clothing.</li>
+                            <li> Reviews: Many reviews have returned after releasing our clothing brand collection on the internet. Our Five-star ratings
+                              for our clothing have stated "Our kids have nevered looked better wearing a shirt with a buddist monk hugging
+                              a monkey loving while we are playing in the house. I would never buy another monkey see, monkey do shirt again from
+                              another business through the internet." A few of our brands in our clothing section have also appealed to adults inquiring
+                              about our clothing. A few reviews have stated, "My wife loves when I am walking around in my monkey see, monkey do brand shirt
+                              that she always has loved me wearing. She really enjoys when I wear them out on our dates, and gets the attention of many
+                              people around us in the restaurant. Many people have complimenyed him on the shirts that hav been purchased through your
+                              website on the internet."</li>
+                            <li> Rating: Our brand collection is known for its customer satisifaction through the internet. Nobody has complained about
+                              our brandings integrity of monkey see, monkey do slogans, and have always satisified our customers through transactions
+                              completed. Nobody stands as competition to our superior brand collections for many families shopping on our webpag on the
+                              internet. Many clothing industries have stated our brand collection has the finest clothing, and has recieved seals of approvals
+                              from many conducting business with customers that have become interested in purchasing our clothing.</li>
+                            </ul>
+                </div>
+
+                <div data-role="footer" data-role="a">
+                  <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+                </div>
+                </div>
+
+
+                <div data-role="page" id="form" data-theme="a" data-add-back-btn="true">
+<div data-role="header" data-theme="a" data-add-back-btn="true">
+
+<h1>Form</h1>
+
+</div>
+
+<div data-role="content">
+
+<form action="form.php" method="post">
+
+<label for="fname">First name:</label>
+
+<input type="text" name="fname" id="fname">
+
+</form>
+
+</div>
+
+                <div data-role="footer" data-role="a">
+                  <h3>Monkister:Monkey See, Monkey Do &copy 2023</h3>
+                </div>
+                </div>
+
+
+
+      <head>
+<title> Professionaly Using Data Attributes </title>
+
+<link rel="stylesheet" href="RedBlackTemplate.css">
+</head>
+
+<body>
+
+</body>
+</div>
+</html>
